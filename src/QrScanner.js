@@ -41,7 +41,7 @@ const QrScanner = () => {
       try {
         setStatus("processing");
         const response = await axios.get(
-          `http://89.111.173.238/certificate/verify/${code}`,
+          `//89.111.173.238/certificate/verify/${code}`,
           {
             headers: {
               Authorization: `Bearer WqY3^8fSj*2zL9PvQ7w!XkN1@bR6yH4`,
