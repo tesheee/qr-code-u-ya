@@ -54,7 +54,7 @@ const InfoPage = () => {
       setLoading(true);
       setActivationStatus(null);
       const response = await axios.get(
-        `http://localhost:3001/qr/activate/${code}`,
+        `https://www.u-yastreb.online/qr/activate/${code}`,
         {
           headers: {
             Authorization: `Bearer WqY3^8fSj*2zL9PvQ7w!XkN1@bR6yH4`,
